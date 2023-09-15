@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo AFO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .main{
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/pexels-pixabay-531880.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 190vh;
+    }
+   header a{
+    color: white;
+    margin-right: 3vh;
+    cursor: pointer;
+   }
+   section p{
+    color: white;
+    font-weight: bold;
+   }
+   @keyframes animate{
+    0%{
+      transform: scale(1.1);
+    }
+    50%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.1);
+    }
+   }
+</style>
+<body>
+    <div class="main">
+        <header style="background-color: rgba(0,0,0,0.5);" class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img style="width: 50vh;" src="images/Screenshot_2023-09-05_203052-removebg-preview.png" alt="">
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="./index.html">Home</a>
+                <a href="./aboutus.html">About us</a>
+                <a href="./contactus.html">Contact us</a>
+              </nav>
+              <a href="./buy.html">
+                <button style="background-color: black; color: white; padding: 2vh;" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">But now
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+        </header>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/232485146136456"></script>
+    </div>
+</body>
+</html>

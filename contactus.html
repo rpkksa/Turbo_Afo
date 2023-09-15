@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo AFO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .main{
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/pexels-pixabay-531880.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 110vh;
+    }
+   header a{
+    color: white;
+    margin-right: 3vh;
+    cursor: pointer;
+   }
+   section p{
+    color: white;
+    font-weight: bold;
+   }
+   @keyframes animate{
+    0%{
+      transform: scale(1.1);
+    }
+    50%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.1);
+    }
+   }
+   .contacts{
+    margin-top: 10vh; margin-left: 20vh;
+   }
+   @media only screen and (max-width:700px){
+    .main{
+      height: 130vh;
+    }
+    .right{
+      display: none;
+    }
+    .contacts{
+      margin-top: 10vh; margin-left: 10vh;
+    }
+   }
+</style>
+<body>
+    <div class="main">
+        <header style="background-color: rgba(0,0,0,0.5);" class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img style="width: 50vh;" src="images/Screenshot_2023-09-05_203052-removebg-preview.png" alt="">
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="./index.html">Home</a>
+                <a href="./aboutus.html">About us</a>
+                <a href="./contactus.html">Contact us</a>
+              </nav>
+              <a href="./buy.html">
+                <button style="background-color: black; color: white; padding: 2vh;" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">But now
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+        </header>
+            <div class="contacts">
+                <div class="one" style="display: flex; align-items: center;">
+                    <img style="width: 10vh;" src="./images/OIP__2_-removebg-preview.png" alt="">
+                    <a style="margin-left: 3vh; color: aqua;" href="https://www.instagram.com/turbo_afo/">Dm us on instagram</a>
+                </div>
+                <div class="one" style="display: flex; align-items: center; margin-top: 3vh;">
+                    <img style="width: 10vh;" src="./images/OIP-removebg-preview (1).png" alt="">
+                    <h2 style="margin-left: 3vh; color: white;">+91 9958232258</h2>
+                </div>
+                <div class="one" style="display: flex; align-items: center; margin-top: 3vh;">
+                    <img style="width: 10vh;" src="./images/OIP__1_-removebg-preview.png" alt="">
+                    <h2 style="margin-left: 3vh; color: white;">kkishorepoe@gmail.com</h2>
+                </div>
+                <div class="one" style="display: flex; align-items: center; margin-top: 3vh;">
+                    <img style="width: 10vh;" src="./images/OIP-removebg-preview.png" alt="">
+                    <h2 style="margin-left: 3vh; color: white;">58, 4/21 saroop nagar delhi-110042</h2>
+                </div>
+            </div>
+            <div class="right" style="margin-left: 50%; margin-top: -65vh; width: 50%;">
+              <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto flex flex-wrap">
+                  
+                  <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+                    <div class="flex flex-col mb-10 lg:items-start items-center">
+                      <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+                        <img style="border-radius: 50%; width: 7vh;" src="./images/download.jfif" alt="">
+                      </div>
+                      <div class="flex-grow">
+                        <h2 style="color: rgb(0, 250, 0);" class="text-gray-900 text-lg title-font font-medium mb-3">Lilly</h2>
+                        <p class="leading-relaxed text-base">Its good and affordable. there is also fast dilevery service and fast customer care response.</p>
+                      </div>
+                    </div>
+                    <div class="flex flex-col mb-10 lg:items-start items-center">
+                      <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+                        <img style="border-radius: 50%; width: 7vh;" src="./images/download.jfif" alt="">
+                      </div>
+                      <div class="flex-grow">
+                        <h2 style="color: rgb(0, 250, 0);" class="text-gray-900 text-lg title-font font-medium mb-3">Ali</h2>
+                        <p class="leading-relaxed text-base">The product is good and strong</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+    </div>
+</body>
+</html>
